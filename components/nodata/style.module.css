@@ -1,0 +1,21 @@
+.NoDataTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  color: #011f4b;
+}
+
+.messageNoData {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #7e8299;
+  margin: 0px 240px;
+}
+.img {
+  text-align: center;
+}
