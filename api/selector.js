@@ -8,7 +8,7 @@ export const sum = (array) =>
 
 export const filterData = ({ data }) => {
   const result = [];
-  const groupResult = groupBy(data, "projectId");
+  const groupResult = groupBy(orderBy(data, 'created','asc'), "projectId");
 
   for (const [projectId, transactions] of Object.entries(groupResult)) {
     const total = sum(transactions.map(({ amount }) => amount));
